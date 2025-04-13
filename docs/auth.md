@@ -113,7 +113,7 @@ For auth with external services or social networks you need:
 
 ## Auth via Google
 
-1. You need a `CLIENT_ID`, `CLIENT_SECRET`. You can find these pieces of information by going to the [Developer Console](https://console.cloud.google.com/), clicking your project (if doesn't have create it here https://console.cloud.google.com/projectcreate) -> `APIs & services` -> `credentials`.
+1. You need a `CLIENT_ID`, `CLIENT_SECRET`. You can find these pieces of information by going to the [Developer Console](https://console.cloud.GOOuntitled folder 2google.com/), clicking your project (if doesn't have create it here https://consuntitled folder 2ole.cloud.google.com/projectcreate) -> `APIs & services` -> `credentials`.
 1. Change `GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` in `.env`
 
    ```text

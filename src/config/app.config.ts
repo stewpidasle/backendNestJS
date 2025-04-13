@@ -68,3 +68,4 @@ export default registerAs<AppConfig>('app', () => {
     headerLanguage: process.env.APP_HEADER_LANGUAGE || 'x-custom-lang',
   };
 });
+

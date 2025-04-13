@@ -42,8 +42,11 @@ const infrastructureDatabaseModule = (databaseConfig() as DatabaseConfig)
     });
 // </database-block>
 
+import { unnamedsModule } from './unnameds/unnameds.module';
+
 @Module({
   imports: [
+    unnamedsModule,
     ConfigModule.forRoot({
       isGlobal: true,
       load: [
